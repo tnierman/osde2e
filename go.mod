@@ -3,7 +3,7 @@ module github.com/openshift/osde2e
 go 1.16
 
 require (
-	cloud.google.com/go/kms v1.4.0
+	cloud.google.com/go/kms v1.6.0
 	github.com/Masterminds/semver v1.5.0
 	github.com/PagerDuty/go-pagerduty v1.5.1
 	github.com/PuerkitoBio/goquery v1.8.0
@@ -67,11 +67,11 @@ require (
 	github.com/tsenart/go-tsz v0.0.0-20180814235614-0bd30b3df1c3 // indirect
 	github.com/tsenart/vegeta v12.7.0+incompatible
 	github.com/vmware-tanzu/velero v1.5.0-beta.1.0.20200831161009-1dcaa1bf7512
-	golang.org/x/net v0.0.0-20220624214902-1bab6f366d9e
-	golang.org/x/oauth2 v0.0.0-20220622183110-fd043fe589d2
-	golang.org/x/tools v0.1.11
-	google.golang.org/api v0.88.0
-	google.golang.org/genproto v0.0.0-20220624142145-8cd45d7dbd1f
+	golang.org/x/net v0.7.0
+	golang.org/x/oauth2 v0.5.0
+	golang.org/x/tools v0.3.0
+	google.golang.org/api v0.111.0
+	google.golang.org/genproto v0.0.0-20230223222841-637eb2293923
 	gopkg.in/yaml.v3 v3.0.1
 	gotest.tools/v3 v3.3.0
 	k8s.io/api v0.23.0
